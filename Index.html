@@ -7,73 +7,88 @@
 
 </head>
 <body>
+	<div class="container"> <!-- used to contain all the information in the page and prevent word wrapping-->
+		<!-- Navigation Bar Header Info -->
+		<nav class="navbar-expand-lg navbar-default " role="navigation">
 
-	<section class="headerSection">
-			<div class="headerBox">
+			<div class="container-fluid">
+				<div class="navbar navbar-dark bg-light">
+					<div class="col-md-6">
+						<header class="navbar-brand "><a href="Index.html"> Shawn J. Wolf</a></header>
+					</div>
 
-				<!-- Put into a small box at the top left coner which will line up with the About Me, I think this will need to be relative to it's location -->
-				<header><a href="Index.html"> Shawn J. Wolf</a></header>
+					<div class="col-md-6">
+						<nav class="pageNavo">
+							<ul class="justify-content-end list-inline">
+								<li class="list-inline-item"><a class= "nav link About"href="Index.html">About</a> <label class="pipe">|</label></li>
 
-				<span class="pageNavo">
+								<li class="list-inline-item"><a href="Portfolio.html">Portfolio</a> <label class="pipe">|</label></li>
 
-					<a href="Index.html">About</a> <label class="pipe"> | </label>
-					<!-- Line break in here-->
-					<a href="Portfolio.html">Portfolio</a> <label class="pipe"> | </label>
-					<!-- Line break in here-->
-					<a href="contact.html">Contact</a>
-				</span>	
-
-			</div>
-		</section>
-
-		<br>	
-		<br>	
-		<br>
-
-		<section class="bioSection">
-			<div class="bioInfo">
-
-				<!-- -->
-				<h2>About Me</h2>
-
-				<br>
-				<div class="lineBreak"></div>
-
-				<p> <img class ="myBioPicture" src="assets\images\CroppedMePicture.jpg"> Shawn Jonas Wolf, was born 1978 in Honolulu, HI.  He is the second born of five boys in his family (Power of two!).  Shawn lives in Minneapolis, MN with his husband of 8 years, and beloved mate of 19 years in a nice little condo unit near downtown.  Shawn has worked as an Mortgage Loan Underwriter, Operations and Credit Analyst for Wells Fargo Home Mortgage.  Before that Shawn did a stent as a freelance fantasy artist.</p> <br>
-				<p> Shawn has studied and traveled to China in 2014, though not fluent he has a good appreciation for the culture.  With an Associates Degree in Software Development, Shawn now spends part of his time in a coding boot camp course at the U of M enhancing his coding abilities, as well as training his body at Los Campeones gym (https://loscampeonesgym.com/) under Tyler Caldwell (https://loscampeonesgym.com/trainer/tyler-caldwell/).  Shawn's favorite color is Orange followed by Candy-Apple Red.  Shawn's favorite foods are burgers, and pizza, favorite drinks include coffee, Knob Creek Manhattan's and orange juice.  His favorite poison besides life is taking cruises with his husband.</p>
-
-
-			</div>
-
-			<section class="connectSection">
-				<div class="connectBox">
-
-					<!-- Put in pictures for each link-->
-					<h3>Connect with me</h3>
-					<br>
-					<div class="lineBreak"></div>
-					<ul>
-						<a class= "linkIcon" href="https://github.com/Wolfknightx" target="_blank"><img src="assets\images\github.png"></a> <!-- GitHub link here -->
-
-						<a class= "linkIcon" href="https://www.linkedin.com/in/shawn-wolf-58077182/" target="_blank"><img src="assets\images\Linkedin.png"></a> <!-- LinkedIn link here -->
-
-						<a class= "linkIcon" href="https://stackoverflow.com/users/5227584/wolfknightx" target="_blank"><img src="assets\images\Stackoverflow.png"></a> <!-- Stackoverflow link here -->
-					</ul>
+								<li class="list-inline-item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
 
 				</div>
-			</section>
-		</section>
-		
+			</div>
 
-		<section>
+		</nav> 
+
+		<br>	
+		<br>	
+
+		<div>
+			<section class="bioSection">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="bioInfo">
+								<!-- -->
+								<h2>About Me</h2>
+
+								<br>
+								<div class="lineBreak"></div>
+
+								<p class="text-left"> <img class ="img-fluid img-thumbnail rounded float-left" src="assets\images\CroppedMePicture.jpg"> Shawn Jonas Wolf, was born 1978 in Honolulu, HI.  He is the second born of five boys in his family (Power of two!).  Shawn lives in Minneapolis, MN with his husband of 8 years, and beloved mate of 19 years in a nice little condo unit near downtown.  Shawn has worked as an Mortgage Loan Underwriter, Operations and Credit Analyst for Wells Fargo Home Mortgage.  Before that Shawn did a stent as a freelance fantasy artist.</p> <br>
+								<p> Shawn has studied and traveled to China in 2014, though not fluent he has a good appreciation for the culture.  With an Associates Degree in Software Development, Shawn now spends part of his time in a coding boot camp course at the U of M enhancing his coding abilities, as well as training his body at Los Campeones gym (https://loscampeonesgym.com/) under Tyler Caldwell (https://loscampeonesgym.com/trainer/tyler-caldwell/).  Shawn's favorite color is Orange followed by Candy-Apple Red.  Shawn's favorite foods are burgers, and pizza, favorite drinks include coffee, Knob Creek Manhattan's and orange juice.  His favorite poison besides life is taking cruises with his husband.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="connectSection">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="connectBox">
+
+									<!-- Put in pictures for each link-->
+									<h3>Connect with me</h3>
+									<br>
+									<div class="lineBreak"></div>
+									<ul>
+										<a class= "linkIcon" href="https://github.com/Wolfknightx" target="_blank"><img src="assets\images\github.png"></a> <!-- GitHub link here -->
+
+										<a class= "linkIcon" href="https://www.linkedin.com/in/shawn-wolf-58077182/" target="_blank"><img src="assets\images\Linkedin.png"></a> <!-- LinkedIn link here -->
+
+										<a class= "linkIcon" href="https://stackoverflow.com/users/5227584/wolfknightx" target="_blank"><img src="assets\images\Stackoverflow.png"></a> <!-- Stackoverflow link here -->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+
+		<section class="container-expand footer">
 			<div>
 				<!-- -->
-				<footer>
+				<footer class="blockquote-footer text-center border border-dark bg-dark">
 					<p>@Copyright 2017 Shawn Wolf</p>
 				</footer>
-
 			</div>
 		</section>
-
+	</div>
 </body>
 </html>
