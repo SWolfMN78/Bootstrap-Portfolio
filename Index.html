@@ -2,55 +2,53 @@
 <html lang="en=us">
 <head>
 	<title>Portfolio Index Page</title>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 </head>
 <body>
+
 	<div class="container"> <!-- used to contain all the information in the page and prevent word wrapping-->
 		<!-- Navigation Bar Header Info -->
-		<nav class="navbar-expand-lg navbar-default " role="navigation">
 
-			<div class="container-fluid">
-				<div class="navbar navbar-dark bg-light">
-					<div class="col-md-6">
-						<header class="navbar-brand "><a href="Index.html"> Shawn J. Wolf</a></header>
-					</div>
-
-					<div class="col-md-6">
-						<nav class="pageNavo">
-							<ul class="justify-content-end list-inline">
-								<li class="list-inline-item"><a class= "nav link About"href="Index.html">About</a> <label class="pipe">|</label></li>
-
-								<li class="list-inline-item"><a href="Portfolio.html">Portfolio</a> <label class="pipe">|</label></li>
-
-								<li class="list-inline-item"><a href="contact.html">Contact</a></li>
-							</ul>
-						</nav>
-					</div>
-
+		<nav class="navbar-expand navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header navbar-light bg-light">
+					<a class="navbar-brand" href="Index.html"> Shawn J. Wolf</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item active">
+							<a class="nav link" href="Index.html">About<span class="sr-only">(current)</span></a></li> |
+						<li class="nav-item active">
+							<a class="nav link" href="Portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li> |
+						<li class="nav-item active">
+							<a class="nav link" href="Contact.html">Contact<span class="sr-only">(current)</span></a></li>
+					</ul>
 				</div>
 			</div>
-
 		</nav> 
 
 		<br>	
 		<br>	
 
-		<div>
+		<div class="container">
 			<section class="bioSection">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-8">
+						<div>
 							<div class="bioInfo">
 								<!-- -->
 								<h2>About Me</h2>
 
 								<br>
 								<div class="lineBreak"></div>
-
-								<p class="text-left"> <img class ="img-fluid img-thumbnail rounded float-left" src="assets\images\CroppedMePicture.jpg"> Shawn Jonas Wolf, was born 1978 in Honolulu, HI.  He is the second born of five boys in his family (Power of two!).  Shawn lives in Minneapolis, MN with his husband of 8 years, and beloved mate of 19 years in a nice little condo unit near downtown.  Shawn has worked as an Mortgage Loan Underwriter, Operations and Credit Analyst for Wells Fargo Home Mortgage.  Before that Shawn did a stent as a freelance fantasy artist.</p> <br>
-								<p> Shawn has studied and traveled to China in 2014, though not fluent he has a good appreciation for the culture.  With an Associates Degree in Software Development, Shawn now spends part of his time in a coding boot camp course at the U of M enhancing his coding abilities, as well as training his body at Los Campeones gym (https://loscampeonesgym.com/) under Tyler Caldwell (https://loscampeonesgym.com/trainer/tyler-caldwell/).  Shawn's favorite color is Orange followed by Candy-Apple Red.  Shawn's favorite foods are burgers, and pizza, favorite drinks include coffee, Knob Creek Manhattan's and orange juice.  His favorite poison besides life is taking cruises with his husband.</p>
+								
+								<img class ="img-fluid img-thumbnail rounded float-left" src="assets\images\CroppedMePicture.jpg">
+								<div class="col-mid-8">
+									<p class="text-left"> Shawn Jonas Wolf, was born 1978 in Honolulu, HI.  He is the second born of five boys in his family (Power of two!).  Shawn lives in Minneapolis, MN with his husband of 8 years, and beloved mate of 19 years in a nice little condo unit near downtown.  Shawn has worked as an Mortgage Loan Underwriter, Operations and Credit Analyst for Wells Fargo Home Mortgage.  Before that Shawn did a stent as a freelance fantasy artist.</p> <br>
+									<p> Shawn has studied and traveled to China in 2014, though not fluent he has a good appreciation for the culture.  With an Associates Degree in Software Development, Shawn now spends part of his time in a coding boot camp course at the U of M enhancing his coding abilities, as well as training his body at Los Campeones gym (https://loscampeonesgym.com/) under Tyler Caldwell (https://loscampeonesgym.com/trainer/tyler-caldwell/).  Shawn's favorite color is Orange followed by Candy-Apple Red.  Shawn's favorite foods are burgers, and pizza, favorite drinks include coffee, Knob Creek Manhattan's and orange juice.  His favorite poison besides life is taking cruises with his husband.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -81,7 +79,7 @@
 			</section>
 		</div>
 
-		<section class="container-expand footer">
+		<section class="container-expand fixed-bottom">
 			<div>
 				<!-- -->
 				<footer class="blockquote-footer text-center border border-dark bg-dark">
