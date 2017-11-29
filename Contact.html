@@ -8,23 +8,19 @@
 </head>
 <body>
 
-	<section class="headerSection">
-		<div class="headerBox">
-
-			<!-- Put into a small box at the top left coner which will line up with the About Me, I think this will need to be relative to it's location -->
-			<header><a href="Index.html"> Shawn J. Wolf</a></header>
-
-			<span class="pageNavo">
-
-				<a href="Index.html">About</a> <label class="pipe"> | </label>
-				<!-- Line break in here-->
-				<a href="Portfolio.html">Portfolio</a> <label class="pipe"> | </label>
-				<!-- Line break in here-->
-				<a href="contact.html">Contact</a>
-			</span>	
-
+	<!-- Navigation Bar Header Info -->
+	<div class="navbar navbar-expand navbar-light bg-light navabar-static-top border border-dark border-top-0 border-right-0 border-left-0" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand font-weight-bold border border-info bg-info text-white p-3 mb-0" href="Index.html"> Shawn J. Wolf</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-item active"><a class="nav link text-muted pr-1" href="Index.html">About<span class="sr-only">(current)</span></a></li> |
+				<li class="nav-item active"><a class="nav link text-muted pr-1 pl-1" href="Portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li> |
+				<li class="nav-item active"><a class="nav link text-muted pl-1" href="Contact.html">Contact<span class="sr-only">(current)</span></a></li>
+			</ul>
 		</div>
-	</section>
+	</div> 
 
 	<br>	
 	<br>	
@@ -76,13 +72,13 @@
 	
 
 	<section class="container-expand footer">
-			<div>
-				<!-- -->
-				<footer class="blockquote-footer text-center border border-dark bg-dark">
-					<p>@Copyright 2017 Shawn Wolf</p>
-				</footer>
-			</div>
-		</section>
+		<div>
+			<!-- -->
+			<footer class="blockquote-footer text-center border border-dark bg-dark">
+				<p>@Copyright 2017 Shawn Wolf</p>
+			</footer>
+		</div>
+	</section>
 
 </body>
 </html>
