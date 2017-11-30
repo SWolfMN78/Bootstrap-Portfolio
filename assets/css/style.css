@@ -6,13 +6,13 @@ body{
 
 .headerSection{
 /*	border: solid 1px red;*/
-	height: 57px;
+/*	height: 57px;*/
 	background-color: #ffffff55;
 }
 
 .headerBox{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	width: 960px;
+/*	width: 960px;*/
 	margin-left: auto;
 	margin-right: auto;
 /*	border: solid 1px yellow;*/
@@ -24,7 +24,7 @@ header{
 	padding: 16px;
 	font-size: 25px;
 /*	border: solid 1px blue;*/
-	float: left;
+/*	float: left;*/
 
 }
 
@@ -35,10 +35,10 @@ header{
 }
 
 .bioInfo{
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	width: 628px;
-	padding: 16px;
+	padding: 14px;
 	/*border: solid 1px*/;
 	background-color: #ffffff55;
 	float: left;
@@ -88,14 +88,14 @@ p{
 
 .linkIcon img{
 	width: 64px;
-	padding: 3px;
+	padding: 10px;
 }
 
 .pageNavo{
 	font-size: 17pt;
-	padding: 17px;
+/*	padding: 17px;
 	float: right;
-	margin-right: 15%;
+	margin-right: 15%;*/
 }
 
 .pageNavo a{
